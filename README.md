@@ -193,8 +193,6 @@ print(vocabs, len(vocabs))
 ```
 
 ```python
-import sys
-sys.path.append('/kaggle/input/dnabert-tokenizer/') 
 from tokenization_dna import DNATokenizer
 
 dna_tokenizer = DNATokenizer(vocab_file=vocab_file_name)
